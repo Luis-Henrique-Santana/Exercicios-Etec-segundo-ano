@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>at</title>
+</head>
+<meta charset="utf-8">
+<body>
+<form method="post" action="php.php">
+<div>
+	<fieldset><label><h2>Nome:</h2></label>
+		<input type="text" name="nome" required>
+	<h1>
+		Preferencias
+	</h1>
+	<label><h3>Esporte:</h3></label><br>
+		<input type="checkbox" name="esporte[]" value="coletivo">Coletivo<br>
+		<input type="checkbox" name="esporte[]" value="individual">Individuial<br>
+		<input type="checkbox" name="esporte[]" value="esporte">E-sports<br>
+<br><br>
+		<label><h3>Assistir:</h3></label><br>
+		<input type="radio" name="assistir[]" value="Filme">filme<br>
+		<input type="radio" name="assistir[]" value="Serie">Série<br>
+		<input type="radio" name="assistir[]" value="Anime">Anime<br>
+		<input type="radio" name="assistir[]" value="Novela">Novela<br>
+<br><br>
+		<label><h3>Genero:</h3></label><br>
+		<input type="checkbox" name="genero[]" value="Romance">Romance<br>
+		<input type="checkbox" name="genero[]" value="Ficção">Ficção<br>
+		<input type="checkbox" name="genero[]" value="Aventura">Aventura<br>
+		<input type="checkbox" name="genero[]" value="Terror">Terror<br>
+<br><br>
+		<label><h3>Leitura:</h3></label><br>
+		<input type="radio" name="leitura[]" value="Livro">Livro<br>
+		<input type="radio" name="leitura[]" value="Gibi">Gibi<br>
+		<input type="radio" name="leitura[]" value="Jornal">Jornal<br><br><br>
+		<button class="submit">Enviar</button>
+	</fieldset>
+</div>
+</form>
+</body>
+</html>

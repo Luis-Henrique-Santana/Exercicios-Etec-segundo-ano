@@ -1,0 +1,56 @@
+img{
+	width: 230px;
+	height:230px;
+}
+div{
+	position: absolute;
+}
+#site2{
+	margin-top: 0px;
+	margin-left: 300px;
+}
+#site3{
+	margin-top: 0px;
+	margin-left: 585px;
+}
+#site4{
+	margin-top: 0px;
+	margin-left: 885px;
+}
+#site5{
+	margin-top: 347px;
+	margin-left: 0px;
+}
+#site6{
+	margin-top: 347px;
+	margin-left: 300px;
+}
+#site7{
+	margin-top: 347px;
+	margin-left: 585px;
+}
+#site8{
+	margin-top: 347px;
+	margin-left: 885px;
+}
+fieldset{
+position: absolute;
+background-color: rgb(255,255,200);
+}
+#div1{
+width: 50%;
+height:100%;
+}
+#div2{
+width: 50%;
+height:100%;
+}
+#fild1{
+width: 60%;
+height:95%;
+}
+#fild2{
+width: 125%;
+height:95%;
+margin-left: 450px;
+}
